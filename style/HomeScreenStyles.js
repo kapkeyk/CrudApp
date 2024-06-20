@@ -1,0 +1,218 @@
+import { StyleSheet } from 'react-native';
+
+export const styles = StyleSheet.create({
+  infoTextEmail: {
+    fontSize: 16,
+    color: '#2c3e50',
+    marginBottom: 10,
+    textAlign: 'left',
+    marginLeft: 20,
+  },
+  searchInput: {
+    flex: 2,
+    height: 35,
+    paddingHorizontal: 10,
+    borderWidth: 1,
+    borderColor: '#95a5a6',
+    borderRadius: 3,
+    marginRight: 5,
+    color: '#000'
+  },
+  
+  infoText: {
+    fontSize: 16,
+    color: '#2c3e50',
+    marginBottom: 10,
+    marginLeft: 10,
+    textAlign: 'left',
+    alignSelf: 'flex-start',
+  },
+  headerContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginVertical: 10,
+  },
+  headerTitle: {
+    flex: 2,
+    textAlign: 'center',
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#2c3e50',
+  },
+  infoButton: {
+    width: 30,
+    height: 30,
+    borderRadius: 15,
+    backgroundColor: '#2c3e50',
+    alignItems: 'center',
+    justifyContent: 'center',
+    fontSize: 24,
+    marginLeft: 10,
+  },
+  infoButtonText: {
+    color: '#fff',
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
+  container: {
+    flex: 1,
+    backgroundColor: '#f0f0f0',
+    padding: 5,
+  },
+  note: {
+    backgroundColor: '#ffffff',
+    padding: 10,
+    borderRadius: 5,
+    margin: 5,
+    shadowColor: '#000',
+    shadowOpacity: 0.25,
+    shadowRadius: 4,
+    elevation: 5,
+    borderLeftWidth: 4,
+    borderLeftColor: '#34495e',
+    paddingLeft: 10,
+  },
+  noteText: {
+    fontSize: 16,
+    color: '#57606f',
+    textAlign: 'justify',
+    lineHeight: 20,
+  },
+  addButton: {
+    position: 'absolute',
+    right: 20,
+    bottom: 20,
+    backgroundColor: '#2c3e50',
+    borderRadius: 20,
+    width: 60,
+    height: 60,
+    justifyContent: 'center',
+    alignItems: 'center',
+    elevation: 8,
+  },
+  addButtonText: {
+    color: 'white',
+    fontSize: 30,
+    lineHeight: 30,
+  },
+  centeredView: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'rgba(0, 0, 0, 0.2)',
+  },
+  modalView: {
+    margin: 20,
+    backgroundColor: 'white',
+    borderRadius: 5,
+    padding: 10,
+    alignItems: 'center',
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 20,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 4,
+    elevation: 5,
+    width: '90%',
+    height: '90%',
+  },
+  button: {
+    borderRadius: 5,
+    padding: 10,
+    elevation: 2,
+  },
+  buttonContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  buttonSave: {
+    backgroundColor: '#34495e',
+    marginRight: 10,
+  },
+  textStyle: {
+    color: '#fff',
+    fontWeight: 'bold',
+    textAlign: 'center',
+  },
+  modalText: {
+    position: 'absolute',
+    top: 20,
+    left: 10,
+    marginVertical: 10,
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: '#2c3e50'
+  },
+  inputNote: {
+    height: '65%',
+    width: '100%',
+    marginVertical: 5,
+    textAlignVertical: 'top',
+    lineHeight: 22,
+    textAlign: 'justify',
+    color: 'black',
+    fontSize: 16,
+  },
+  inputTitle: {
+    width: '100%',
+    height: 50,
+    color: 'black',
+    fontSize: 20,
+    fontWeight: '400',
+    marginTop: 80,
+    marginLeft: 10,
+  },
+  bottomText: {
+    position: 'absolute',
+    bottom: 0,
+    marginBottom: 10,
+    color: '#7f8c8d',
+    fontSize: 10,
+  },
+  closeDeleteButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    position: 'absolute',
+    top: 20,
+    right: 10,
+    gap: 10,
+  },
+  closeButton: {
+    backgroundColor: '#34495e',
+    paddingHorizontal: 10,
+    paddingVertical: 10,
+    borderRadius: 5,
+  },
+  buttonDelete: {
+    backgroundColor: '#34495e',
+  },
+  textStyle: { //Delete button also
+    color: '#fff',
+    fontWeight: 'bold',
+    textAlign: 'center',
+  },
+  emptyContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    color: '#34495e',
+  },
+  noteDate: {
+    marginTop: 10,
+    color: '#2c3e50'
+  },
+  noteTitle: {
+    color: '#2c3e50',
+    fontWeight: 'bold',
+    fontSize: 18,
+    marginBottom: 15,
+  },
+  emptyText: {
+    fontSize: 18,
+    color: '#a4b0be'
+  }
+
+});
